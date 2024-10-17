@@ -4,7 +4,6 @@ Spring Boot project used to test Bean Validation message interpolation issues
 ## Instructions
 
 I am trying to follow the instructions: https://docs.spring.io/spring-framework/reference/core/validation/beanvalidation.html#validation-beanvalidation-spring-method-i18n.
-But now I filled the annotations message field with a Spring code value.
 
 ## Test
 
@@ -20,5 +19,7 @@ curl --location 'http://localhost:8080/people' \
 
 ## Result
 
-The field {0} must not be blank
-The size of the {0} name must be between {1} and {2}
+- não deve estar em branco
+- tamanho deve ser entre 1 e 50
+
+*default Bean Validation message in my language pt-BR

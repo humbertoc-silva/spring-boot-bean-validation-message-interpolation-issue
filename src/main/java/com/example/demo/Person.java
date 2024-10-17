@@ -5,8 +5,8 @@ import jakarta.validation.constraints.Size;
 
 public class Person {
 
-    @NotBlank(message = "{NotBlank.person.name}")
-    @Size(message = "{Size.person.name}", min = 1, max = 50)
+    @NotBlank
+    @Size(min = 1, max = 50)
     private String name;
 
     public String getName() {
