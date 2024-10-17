@@ -20,5 +20,5 @@ curl --location 'http://localhost:8080/people' \
 
 ## Result
 
-The field {0} must not be blank
-The size of the {0} name must be between {1} and {2}
+- The field {0} must not be blank
+- The size of the {0} name must be between {1} and {2}
